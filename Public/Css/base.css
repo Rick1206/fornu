@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+/*
+	@名称: base
+	@功能: 重设浏览器默认样式
+*/
+
+/* 防止用户自定义背景颜色对网页的影响 */
+html{
+    color:#000;
+    overflow:-moz-scrollbars-vertical; /* 解决火狐有无滚动条跳转时抖动问题 */
+    -webkit-text-size-adjust: none; /* 解决chrome 下 12px字体问题 */
+}
+
+/* 内外边距通常让各个浏览器样式的表现位置不同 */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    margin:0;padding:0;
+}
+
+/* 重设 HTML5 标签, IE 需要在 js 中 createElement(TAG) */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+/* 要注意表单元素并不继承父级 font 的问题 */
+body,button,input,select,textarea{
+    font:12px/1.5 tahoma,arial,\5b8b\4f53;
+}
+input,select,textarea{
+    font-size:100%;
+}
+
+/* 去掉各Table  cell 的边距并让其边重合 */
+table{
+    border-collapse:collapse;border-spacing:0;
+}
+
+th{
+    text-align:inherit;
+}
+
+/* 去除默认边框 */
+fieldset,img{
+    border:0;
+}
+
+iframe{
+    display:block;
+}
+
+abbr,acronym{
+    border:0;font-variant:normal;
+}
+
+del {
+    text-decoration:line-through;
+}
+
+address,caption,cite,code,dfn,em,th,var {
+    font-style:normal;
+    font-weight:500;
+}
+
+ol,ul {
+    list-style:none;
+}
+
+caption,th {
+    text-align:left;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:500;
+}
+
+q:before,q:after {
+    content:'';
+}
+
+sup {
+    vertical-align:text-top;
+}
+sub {
+    vertical-align:text-bottom;
+}
+/* 让链接在 hover 状态下显示下划线 */
+a:hover {
+    text-decoration:underline;
+}
+ins,a {
+    text-decoration:none;
+}
+
+/* 清理浮动 */
+.fn-clear:after {
+    visibility:hidden;
+    display:block;
+    font-size:0;
+    content:" ";
+    clear:both;
+    height:0;
+}
+.fn-clear {
+    zoom:1; /* for IE6 IE7 */
+}
+body .fn-hide {
+    display:none;
+}
+
+.fn-left,.fn-right {
+    display:inline;
+}
+.fn-left {
+    float:left;
+}
+.fn-right {
+    float:right;
+}

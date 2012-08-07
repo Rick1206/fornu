@@ -232,3 +232,185 @@
 [ 2012-08-07T22:45:54+08:00 ] /fornu/admin.php | INFO: Tag[ view_end ] --START--
 [ 2012-08-07T22:45:54+08:00 ] /fornu/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000348s ]
 [ 2012-08-07T22:45:54+08:00 ] /fornu/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000399s ]
+[ 2012-08-07T23:19:57+08:00 ] /fornu/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2012-08-07T23:19:57+08:00 ] /fornu/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000562s ]
+[ 2012-08-07T23:19:57+08:00 ] /fornu/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000646s ]
+[ 2012-08-07T23:19:57+08:00 ] /fornu/admin.php | INFO: Tag[ view_template ] --START--
+[ 2012-08-07T23:19:57+08:00 ] /fornu/admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.000842s ]
+[ 2012-08-07T23:19:57+08:00 ] /fornu/admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.000947s ]
+[ 2012-08-07T23:19:57+08:00 ] /fornu/admin.php | INFO: Tag[ view_parse ] --START--
+[ 2012-08-07T23:19:57+08:00 ] /fornu/admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.007000s ]
+[ 2012-08-07T23:19:57+08:00 ] /fornu/admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.007090s ]
+[ 2012-08-07T23:19:57+08:00 ] /fornu/admin.php | INFO: Tag[ view_filter ] --START--
+[ 2012-08-07T23:19:57+08:00 ] /fornu/admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.000385s ]
+[ 2012-08-07T23:19:57+08:00 ] /fornu/admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.000374s ]
+[ 2012-08-07T23:19:57+08:00 ] /fornu/admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000265s ]
+[ 2012-08-07T23:19:57+08:00 ] /fornu/admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000429s ]
+[ 2012-08-07T23:19:57+08:00 ] /fornu/admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001604s ]
+[ 2012-08-07T23:19:57+08:00 ] /fornu/admin.php | INFO: Tag[ view_end ] --START--
+[ 2012-08-07T23:19:57+08:00 ] /fornu/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000373s ]
+[ 2012-08-07T23:19:57+08:00 ] /fornu/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000426s ]
+[ 2012-08-07T23:21:19+08:00 ] /fornu/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2012-08-07T23:21:19+08:00 ] /fornu/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000567s ]
+[ 2012-08-07T23:21:19+08:00 ] /fornu/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000687s ]
+[ 2012-08-07T23:21:19+08:00 ] /fornu/admin.php | INFO: Tag[ view_template ] --START--
+[ 2012-08-07T23:21:19+08:00 ] /fornu/admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.000531s ]
+[ 2012-08-07T23:21:19+08:00 ] /fornu/admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.000595s ]
+[ 2012-08-07T23:21:19+08:00 ] /fornu/admin.php | INFO: Tag[ view_parse ] --START--
+[ 2012-08-07T23:21:19+08:00 ] /fornu/admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.005120s ]
+[ 2012-08-07T23:21:19+08:00 ] /fornu/admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.005199s ]
+[ 2012-08-07T23:21:19+08:00 ] /fornu/admin.php | INFO: Tag[ view_filter ] --START--
+[ 2012-08-07T23:21:19+08:00 ] /fornu/admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.000368s ]
+[ 2012-08-07T23:21:19+08:00 ] /fornu/admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.002587s ]
+[ 2012-08-07T23:21:19+08:00 ] /fornu/admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000783s ]
+[ 2012-08-07T23:21:19+08:00 ] /fornu/admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000471s ]
+[ 2012-08-07T23:21:19+08:00 ] /fornu/admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004425s ]
+[ 2012-08-07T23:21:19+08:00 ] /fornu/admin.php | INFO: Tag[ view_end ] --START--
+[ 2012-08-07T23:21:19+08:00 ] /fornu/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000597s ]
+[ 2012-08-07T23:21:19+08:00 ] /fornu/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000677s ]
+[ 2012-08-07T23:21:22+08:00 ] /fornu/admin.php/user | ERR: (ThinkException) 无法加载模块user
+[ 2012-08-07T23:21:44+08:00 ] /fornu/admin.php/user | ERR: (ThinkException) 无法加载模块user
+[ 2012-08-07T23:21:45+08:00 ] /fornu/admin.php/user | ERR: (ThinkException) 无法加载模块user
+[ 2012-08-07T23:22:16+08:00 ] /fornu/admin.php/user | ERR: (ThinkException) 无法加载模块user
+[ 2012-08-07T23:22:20+08:00 ] /fornu/admin.php/user | ERR: (ThinkException) 无法加载模块user
+[ 2012-08-07T23:22:21+08:00 ] /fornu/admin.php/user | ERR: (ThinkException) 无法加载模块user
+[ 2012-08-07T23:22:21+08:00 ] /fornu/admin.php/user | ERR: (ThinkException) 无法加载模块user
+[ 2012-08-07T23:22:22+08:00 ] /fornu/admin.php/user | ERR: (ThinkException) 无法加载模块user
+[ 2012-08-07T23:22:22+08:00 ] /fornu/admin.php/user | ERR: (ThinkException) 无法加载模块user
+[ 2012-08-07T23:22:22+08:00 ] /fornu/admin.php/user | ERR: (ThinkException) 无法加载模块user
+[ 2012-08-07T23:22:26+08:00 ] /fornu/admin.php/user | ERR: (ThinkException) 无法加载模块user
+[ 2012-08-07T23:22:26+08:00 ] /fornu/admin.php/user | ERR: (ThinkException) 无法加载模块user
+[ 2012-08-07T23:22:34+08:00 ] /fornu/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2012-08-07T23:22:34+08:00 ] /fornu/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000911s ]
+[ 2012-08-07T23:22:34+08:00 ] /fornu/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001046s ]
+[ 2012-08-07T23:22:34+08:00 ] /fornu/admin.php | INFO: Tag[ view_template ] --START--
+[ 2012-08-07T23:22:34+08:00 ] /fornu/admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.001590s ]
+[ 2012-08-07T23:22:34+08:00 ] /fornu/admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.001746s ]
+[ 2012-08-07T23:22:34+08:00 ] /fornu/admin.php | INFO: Tag[ view_parse ] --START--
+[ 2012-08-07T23:22:34+08:00 ] /fornu/admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.007161s ]
+[ 2012-08-07T23:22:34+08:00 ] /fornu/admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.007299s ]
+[ 2012-08-07T23:22:34+08:00 ] /fornu/admin.php | INFO: Tag[ view_filter ] --START--
+[ 2012-08-07T23:22:34+08:00 ] /fornu/admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.000465s ]
+[ 2012-08-07T23:22:34+08:00 ] /fornu/admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.000451s ]
+[ 2012-08-07T23:22:34+08:00 ] /fornu/admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000350s ]
+[ 2012-08-07T23:22:34+08:00 ] /fornu/admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000512s ]
+[ 2012-08-07T23:22:34+08:00 ] /fornu/admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001950s ]
+[ 2012-08-07T23:22:34+08:00 ] /fornu/admin.php | INFO: Tag[ view_end ] --START--
+[ 2012-08-07T23:22:34+08:00 ] /fornu/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000596s ]
+[ 2012-08-07T23:22:34+08:00 ] /fornu/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000670s ]
+[ 2012-08-07T23:23:28+08:00 ] /fornu/admin.php/user/index | ERR: (ThinkException) 无法加载模块user
+[ 2012-08-07T23:24:12+08:00 ] /fornu/admin.php/user/index | ERR: (ThinkException) 无法加载模块user
+[ 2012-08-07T23:24:13+08:00 ] /fornu/admin.php/user/index | ERR: (ThinkException) 无法加载模块user
+[ 2012-08-07T23:24:14+08:00 ] /fornu/admin.php/user/index | ERR: (ThinkException) 无法加载模块user
+[ 2012-08-07T23:24:14+08:00 ] /fornu/admin.php/user/index | ERR: (ThinkException) 无法加载模块user
+[ 2012-08-07T23:24:17+08:00 ] /fornu/admin.php/user | ERR: (ThinkException) 无法加载模块user
+[ 2012-08-07T23:24:23+08:00 ] /fornu/admin.php/user/index | ERR: (ThinkException) 无法加载模块user
+[ 2012-08-07T23:24:26+08:00 ] /fornu/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2012-08-07T23:24:26+08:00 ] /fornu/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000651s ]
+[ 2012-08-07T23:24:26+08:00 ] /fornu/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000761s ]
+[ 2012-08-07T23:24:26+08:00 ] /fornu/admin.php | INFO: Tag[ view_template ] --START--
+[ 2012-08-07T23:24:26+08:00 ] /fornu/admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.000810s ]
+[ 2012-08-07T23:24:26+08:00 ] /fornu/admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.000895s ]
+[ 2012-08-07T23:24:26+08:00 ] /fornu/admin.php | INFO: Tag[ view_parse ] --START--
+[ 2012-08-07T23:24:26+08:00 ] /fornu/admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.006913s ]
+[ 2012-08-07T23:24:26+08:00 ] /fornu/admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.007001s ]
+[ 2012-08-07T23:24:26+08:00 ] /fornu/admin.php | INFO: Tag[ view_filter ] --START--
+[ 2012-08-07T23:24:26+08:00 ] /fornu/admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.000560s ]
+[ 2012-08-07T23:24:26+08:00 ] /fornu/admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.000710s ]
+[ 2012-08-07T23:24:26+08:00 ] /fornu/admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000426s ]
+[ 2012-08-07T23:24:26+08:00 ] /fornu/admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000640s ]
+[ 2012-08-07T23:24:26+08:00 ] /fornu/admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002554s ]
+[ 2012-08-07T23:24:26+08:00 ] /fornu/admin.php | INFO: Tag[ view_end ] --START--
+[ 2012-08-07T23:24:26+08:00 ] /fornu/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000550s ]
+[ 2012-08-07T23:24:26+08:00 ] /fornu/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000618s ]
+[ 2012-08-07T23:24:43+08:00 ] /fornu/admin.php/index.php/user | ERR: (ThinkException) 无法加载模块index.php
+[ 2012-08-07T23:24:58+08:00 ] /fornu/admin.php/admin/user | ERR: (ThinkException) 无法加载模块admin
+[ 2012-08-07T23:25:06+08:00 ] /fornu/admin.php/index | ERR: (ThinkException) 无法加载模块index
+[ 2012-08-07T23:25:29+08:00 ] /fornu/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2012-08-07T23:25:29+08:00 ] /fornu/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000522s ]
+[ 2012-08-07T23:25:29+08:00 ] /fornu/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000603s ]
+[ 2012-08-07T23:25:29+08:00 ] /fornu/admin.php | INFO: Tag[ view_template ] --START--
+[ 2012-08-07T23:25:29+08:00 ] /fornu/admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.000633s ]
+[ 2012-08-07T23:25:29+08:00 ] /fornu/admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.000698s ]
+[ 2012-08-07T23:25:29+08:00 ] /fornu/admin.php | INFO: Tag[ view_parse ] --START--
+[ 2012-08-07T23:25:29+08:00 ] /fornu/admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.006260s ]
+[ 2012-08-07T23:25:29+08:00 ] /fornu/admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.006358s ]
+[ 2012-08-07T23:25:29+08:00 ] /fornu/admin.php | INFO: Tag[ view_filter ] --START--
+[ 2012-08-07T23:25:29+08:00 ] /fornu/admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.000452s ]
+[ 2012-08-07T23:25:29+08:00 ] /fornu/admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.000451s ]
+[ 2012-08-07T23:25:29+08:00 ] /fornu/admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000324s ]
+[ 2012-08-07T23:25:29+08:00 ] /fornu/admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000501s ]
+[ 2012-08-07T23:25:29+08:00 ] /fornu/admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001897s ]
+[ 2012-08-07T23:25:29+08:00 ] /fornu/admin.php | INFO: Tag[ view_end ] --START--
+[ 2012-08-07T23:25:29+08:00 ] /fornu/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000431s ]
+[ 2012-08-07T23:25:29+08:00 ] /fornu/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000485s ]
+[ 2012-08-07T23:31:15+08:00 ] /fornu/admin.php/user | ERR: (ThinkException) 无法加载模块user
+[ 2012-08-07T23:31:27+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ route_check ] --START--
+[ 2012-08-07T23:31:27+08:00 ] /fornu/admin.php/User/add | INFO: Run CheckRoute Behavior [ RunTime:0.000695s ]
+[ 2012-08-07T23:31:27+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.000808s ]
+[ 2012-08-07T23:31:27+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ app_begin ] --START--
+[ 2012-08-07T23:31:27+08:00 ] /fornu/admin.php/User/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000597s ]
+[ 2012-08-07T23:31:27+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000659s ]
+[ 2012-08-07T23:31:34+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ route_check ] --START--
+[ 2012-08-07T23:31:34+08:00 ] /fornu/admin.php/User/add | INFO: Run CheckRoute Behavior [ RunTime:0.001108s ]
+[ 2012-08-07T23:31:34+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.001246s ]
+[ 2012-08-07T23:31:34+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ app_begin ] --START--
+[ 2012-08-07T23:31:34+08:00 ] /fornu/admin.php/User/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000860s ]
+[ 2012-08-07T23:31:34+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000959s ]
+[ 2012-08-07T23:31:34+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_template ] --START--
+[ 2012-08-07T23:31:34+08:00 ] /fornu/admin.php/User/add | INFO: Run LocationTemplate Behavior [ RunTime:0.000714s ]
+[ 2012-08-07T23:31:34+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.000783s ]
+[ 2012-08-07T23:31:34+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_parse ] --START--
+[ 2012-08-07T23:31:34+08:00 ] /fornu/admin.php/User/add | INFO: Run ParseTemplate Behavior [ RunTime:0.006069s ]
+[ 2012-08-07T23:31:34+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.006147s ]
+[ 2012-08-07T23:31:34+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_filter ] --START--
+[ 2012-08-07T23:31:34+08:00 ] /fornu/admin.php/User/add | INFO: Run ContentReplace Behavior [ RunTime:0.000420s ]
+[ 2012-08-07T23:31:34+08:00 ] /fornu/admin.php/User/add | INFO: Run TokenBuild Behavior [ RunTime:0.000433s ]
+[ 2012-08-07T23:31:34+08:00 ] /fornu/admin.php/User/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000364s ]
+[ 2012-08-07T23:31:34+08:00 ] /fornu/admin.php/User/add | INFO: Run ShowRuntime Behavior [ RunTime:0.000515s ]
+[ 2012-08-07T23:31:34+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001910s ]
+[ 2012-08-07T23:31:34+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_end ] --START--
+[ 2012-08-07T23:31:34+08:00 ] /fornu/admin.php/User/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.000447s ]
+[ 2012-08-07T23:31:34+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.000501s ]
+[ 2012-08-07T23:51:52+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ route_check ] --START--
+[ 2012-08-07T23:51:52+08:00 ] /fornu/admin.php/User/add | INFO: Run CheckRoute Behavior [ RunTime:0.000786s ]
+[ 2012-08-07T23:51:52+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.000884s ]
+[ 2012-08-07T23:51:52+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ app_begin ] --START--
+[ 2012-08-07T23:51:52+08:00 ] /fornu/admin.php/User/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000722s ]
+[ 2012-08-07T23:51:52+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000789s ]
+[ 2012-08-07T23:51:52+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_template ] --START--
+[ 2012-08-07T23:51:52+08:00 ] /fornu/admin.php/User/add | INFO: Run LocationTemplate Behavior [ RunTime:0.000762s ]
+[ 2012-08-07T23:51:52+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.000864s ]
+[ 2012-08-07T23:51:52+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_parse ] --START--
+[ 2012-08-07T23:51:52+08:00 ] /fornu/admin.php/User/add | INFO: Run ParseTemplate Behavior [ RunTime:0.006508s ]
+[ 2012-08-07T23:51:52+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.006624s ]
+[ 2012-08-07T23:51:52+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_filter ] --START--
+[ 2012-08-07T23:51:52+08:00 ] /fornu/admin.php/User/add | INFO: Run ContentReplace Behavior [ RunTime:0.000417s ]
+[ 2012-08-07T23:51:52+08:00 ] /fornu/admin.php/User/add | INFO: Run TokenBuild Behavior [ RunTime:0.000447s ]
+[ 2012-08-07T23:51:52+08:00 ] /fornu/admin.php/User/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000486s ]
+[ 2012-08-07T23:51:52+08:00 ] /fornu/admin.php/User/add | INFO: Run ShowRuntime Behavior [ RunTime:0.000781s ]
+[ 2012-08-07T23:51:52+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002363s ]
+[ 2012-08-07T23:51:52+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_end ] --START--
+[ 2012-08-07T23:51:52+08:00 ] /fornu/admin.php/User/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.000496s ]
+[ 2012-08-07T23:51:52+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.000570s ]
+[ 2012-08-07T23:51:53+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ route_check ] --START--
+[ 2012-08-07T23:51:53+08:00 ] /fornu/admin.php/User/add | INFO: Run CheckRoute Behavior [ RunTime:0.000660s ]
+[ 2012-08-07T23:51:53+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.000740s ]
+[ 2012-08-07T23:51:53+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ app_begin ] --START--
+[ 2012-08-07T23:51:53+08:00 ] /fornu/admin.php/User/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000797s ]
+[ 2012-08-07T23:51:53+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000899s ]
+[ 2012-08-07T23:51:53+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_template ] --START--
+[ 2012-08-07T23:51:53+08:00 ] /fornu/admin.php/User/add | INFO: Run LocationTemplate Behavior [ RunTime:0.000974s ]
+[ 2012-08-07T23:51:53+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.001083s ]
+[ 2012-08-07T23:51:53+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_parse ] --START--
+[ 2012-08-07T23:51:53+08:00 ] /fornu/admin.php/User/add | INFO: Run ParseTemplate Behavior [ RunTime:0.006523s ]
+[ 2012-08-07T23:51:53+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.006623s ]
+[ 2012-08-07T23:51:53+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_filter ] --START--
+[ 2012-08-07T23:51:53+08:00 ] /fornu/admin.php/User/add | INFO: Run ContentReplace Behavior [ RunTime:0.000518s ]
+[ 2012-08-07T23:51:53+08:00 ] /fornu/admin.php/User/add | INFO: Run TokenBuild Behavior [ RunTime:0.000451s ]
+[ 2012-08-07T23:51:53+08:00 ] /fornu/admin.php/User/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000326s ]
+[ 2012-08-07T23:51:53+08:00 ] /fornu/admin.php/User/add | INFO: Run ShowRuntime Behavior [ RunTime:0.000511s ]
+[ 2012-08-07T23:51:53+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001995s ]
+[ 2012-08-07T23:51:53+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_end ] --START--
+[ 2012-08-07T23:51:53+08:00 ] /fornu/admin.php/User/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.000446s ]
+[ 2012-08-07T23:51:53+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.000500s ]

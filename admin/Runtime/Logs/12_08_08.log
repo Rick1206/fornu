@@ -1,0 +1,25 @@
+[ 2012-08-08T02:06:10+08:00 ] /fornu/admin.php/User/reg | ERR: (ThinkException) 非法操作reg
+[ 2012-08-08T02:06:13+08:00 ] /fornu/admin.php/User/ | ERR: (ThinkException) 非法操作index
+[ 2012-08-08T02:06:20+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ route_check ] --START--
+[ 2012-08-08T02:06:20+08:00 ] /fornu/admin.php/User/add | INFO: Run CheckRoute Behavior [ RunTime:0.001437s ]
+[ 2012-08-08T02:06:20+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.001642s ]
+[ 2012-08-08T02:06:20+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ app_begin ] --START--
+[ 2012-08-08T02:06:20+08:00 ] /fornu/admin.php/User/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2012-08-08T02:06:20+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001164s ]
+[ 2012-08-08T02:06:20+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_template ] --START--
+[ 2012-08-08T02:06:20+08:00 ] /fornu/admin.php/User/add | INFO: Run LocationTemplate Behavior [ RunTime:0.030977s ]
+[ 2012-08-08T02:06:20+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.031115s ]
+[ 2012-08-08T02:06:20+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_parse ] --START--
+[ 2012-08-08T02:06:20+08:00 ] /fornu/admin.php/User/add | INFO: Run ParseTemplate Behavior [ RunTime:0.120428s ]
+[ 2012-08-08T02:06:20+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.120582s ]
+[ 2012-08-08T02:06:20+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_filter ] --START--
+[ 2012-08-08T02:06:20+08:00 ] /fornu/admin.php/User/add | INFO: Run ContentReplace Behavior [ RunTime:0.056944s ]
+[ 2012-08-08T02:06:20+08:00 ] /fornu/admin.php/User/add | INFO: Run TokenBuild Behavior [ RunTime:0.035781s ]
+[ 2012-08-08T02:06:20+08:00 ] /fornu/admin.php/User/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.022042s ]
+[ 2012-08-08T02:06:20+08:00 ] /fornu/admin.php/User/add | INFO: Run ShowRuntime Behavior [ RunTime:0.001733s ]
+[ 2012-08-08T02:06:20+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.117062s ]
+[ 2012-08-08T02:06:20+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_end ] --START--
+[ 2012-08-08T02:06:20+08:00 ] /fornu/admin.php/User/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.001321s ]
+[ 2012-08-08T02:06:20+08:00 ] /fornu/admin.php/User/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.001464s ]
+[ 2012-08-08T02:20:35+08:00 ] /fornu/admin.php/User/ | ERR: (ThinkException) 非法操作index
+[ 2012-08-08T02:20:36+08:00 ] /fornu/admin.php/User/reg | ERR: (ThinkException) 非法操作reg

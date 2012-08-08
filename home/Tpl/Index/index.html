@@ -19,8 +19,8 @@
 <div class="container index-box">
 <input type="text" class="index-text name" />
 <input type="password" class="index-text pwd" />
-<a href="reg.php" class="reg"></a>
-<a href="reg.php" class="go"></a>
+<a href="__APP__/user/reg" class="reg"></a>
+<a href="javascript:void(0)" class="go"></a>
 
 <a href="#" class="map-icon mi1"></a>
 <a href="#" class="map-icon mi2"></a>
@@ -31,5 +31,19 @@
 <script language="javascript" src="__PUBLIC__/Js/jquery.mousewheel.js"></script>
 <script language="javascript" src="__PUBLIC__/Js/jScrollPane.js"></script>
 <script language="javascript" src="__PUBLIC__/Js/common.js"></script>
+<script type="text/javascript">
+
+$('.go').click(function(){
+	//location.href = "__APP__/index/login";
+	$.ajax({
+  		type: 'POST',
+  		url: url,
+  		data: data,
+  		success: success,
+  		dataType: dataType
+	});
+
+	});
+</script>
 </body>
 </html>

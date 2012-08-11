@@ -1,0 +1,18 @@
+[ 2012-08-11T11:10:59+08:00 ] /fornu/ | INFO: Tag[ app_begin ] --START--
+[ 2012-08-11T11:10:59+08:00 ] /fornu/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002973s ]
+[ 2012-08-11T11:10:59+08:00 ] /fornu/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.020283s ]
+[ 2012-08-11T11:10:59+08:00 ] /fornu/ | INFO: Tag[ view_template ] --START--
+[ 2012-08-11T11:10:59+08:00 ] /fornu/ | INFO: Run LocationTemplate Behavior [ RunTime:0.002017s ]
+[ 2012-08-11T11:10:59+08:00 ] /fornu/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.002170s ]
+[ 2012-08-11T11:10:59+08:00 ] /fornu/ | INFO: Tag[ view_parse ] --START--
+[ 2012-08-11T11:10:59+08:00 ] /fornu/ | INFO: Run ParseTemplate Behavior [ RunTime:0.056571s ]
+[ 2012-08-11T11:10:59+08:00 ] /fornu/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.056695s ]
+[ 2012-08-11T11:10:59+08:00 ] /fornu/ | INFO: Tag[ view_filter ] --START--
+[ 2012-08-11T11:10:59+08:00 ] /fornu/ | INFO: Run ContentReplace Behavior [ RunTime:0.000614s ]
+[ 2012-08-11T11:10:59+08:00 ] /fornu/ | INFO: Run TokenBuild Behavior [ RunTime:0.000618s ]
+[ 2012-08-11T11:10:59+08:00 ] /fornu/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000454s ]
+[ 2012-08-11T11:10:59+08:00 ] /fornu/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000649s ]
+[ 2012-08-11T11:10:59+08:00 ] /fornu/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002530s ]
+[ 2012-08-11T11:10:59+08:00 ] /fornu/ | INFO: Tag[ view_end ] --START--
+[ 2012-08-11T11:10:59+08:00 ] /fornu/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001072s ]
+[ 2012-08-11T11:10:59+08:00 ] /fornu/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001152s ]

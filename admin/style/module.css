@@ -1,0 +1,108 @@
+@charset "utf-8";
+/** main css
+ * this file is module css file.
+ * File function : backend main css
+ * ============================================================================ * power by Rick
+ * http://www.emporioasia.com
+ * ----------------------------------------------------------------------------
+ * $Author: Calvin Shen  
+ * $email:calvin@emporioasia.com
+ 
+ css format
+ 
+ #id	{
+ 			position:relative; margin:0px auto; padding:0px; 位置
+			width:1003px; height:45px; background:#ccc url(../images/m_t_b.jpg); 宽度
+			font-family:Arial, Helvetica, sans-serif; font-size:12px;  字体
+			border 边框
+			z-index 坐标
+			透明度
+ 		}
+*/
+
+/* init css*/
+
+body 		  { 
+					
+					margin:0px auto;
+					padding:0px;
+					font-family:Arial, Helvetica, sans-serif; font-size:12px; 
+					color:#666;
+				
+				}
+div,table,tr,td,p,span	{ font-size:12px;}
+
+.table 		{ border-top:1px #ccc solid; border-left:1px #ccc solid; border-right:1px #ccc solid; }
+
+.table tr td	{ border-bottom:1px #ccc solid;}
+
+.table tr td  a {	color:#000;}
+.table tr td  a:link {	color:#000;}
+.table tr td  a:hover { color:#FF6600;}
+.table tr td  a:visited { color:#FF6600;}
+
+.input_add		{ width:400px; height:16px;}
+.input_text		{ width:400px; height:50px; font-size:12px;}
+
+h1, h2, h3 			{ margin: 0; padding: 0; }
+
+
+/*a */
+
+a					{	font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#7DD0FA; text-decoration:none;}
+
+
+a:link ,a:visited 	{
+						font-size:12px; font-family:Arial, Helvetica, sans-serif; 
+						color:#7DD0FA; 
+						text-decoration:none;
+					}
+					
+a:hover				{	font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#f3b308; text-decoration:underline;}
+
+/* Form */
+#contant_left	{
+					float: left; 
+					width:223px;
+
+				}
+				
+#left_title		{ background:url(../images/menu_title.jpg) no-repeat; width:223px; height:31px; line-height:30px; font-size:14px; font-weight:bold; font-family:Georgia, "Times New Roman", Times, serif; padding-left:5px;}	
+
+.left_list		{ padding-left:20px; width:201px; height:25px; border-bottom:1px #CCCCCC solid; border-left:1px #CCCCCC solid; border-right:1px #CCCCCC solid; cursor:pointer;}
+
+
+.left_list_hover     { padding-left:20px; width:201px; height:25px; border-bottom:1px #CCCCCC solid; border-left:1px #CCCCCC solid; border-right:1px #CCCCCC solid; cursor:pointer; color:#004080;}
+
+
+.left_list_click     { padding-left:20px; width:201px; height:25px; border-bottom:1px #CCCCCC solid; border-left:1px #CCCCCC solid; border-right:1px #CCCCCC solid; cursor:pointer; color:#000;}	
+
+	
+				
+#contant_right	{
+					position: relative;
+					width:760px;
+					height:462px;
+					overflow:hidden; left:2px;
+					border:1px #CCCCCC solid;
+
+					
+				}
+
+
+
+#right_mark		{ width:760px; position: relative;}
+
+.include_module	{ width:760px; height:500px; margin:0px; padding:0px;}
+
+
+.m_title		{	font-size:14px; font-family:Georgia, "Times New Roman", Times, serif; font-weight:bold; padding-left:5px;}
+
+
+
+.m_t_c			{ font-family:Georgia, "Times New Roman", Times, serif; font-size:14px; color:#FFFFFF; background:#999; height:30px; line-height:30px;}
+
+#module_link	{	border:0px; margin:0px; padding:0px; color:#666666;};
+
+
+.show_infor	{ color:#000000; text-decoration:underline; font-weight:bold;}

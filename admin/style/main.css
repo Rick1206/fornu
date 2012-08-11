@@ -1,0 +1,121 @@
+@charset "utf-8";
+/** main css
+ * this file is main css file.
+ * File function : backend main css
+ * ============================================================================ * power by Rick
+ * http://www.emporioasia.com
+ * ----------------------------------------------------------------------------
+ * $Author: Calvin Shen  
+ * $email:calvin@emporioasia.com
+ 
+ css format
+ 
+ #id	{
+ 			position:relative; margin:0px auto; padding:0px; 位置
+			width:1003px; height:45px; background:#ccc url(../images/m_t_b.jpg); 宽度
+			font-family:Arial, Helvetica, sans-serif; font-size:12px;  字体
+			border 边框
+			z-index 坐标
+			透明度
+ 		}
+*/
+
+
+/* init style */
+
+body 		  { 
+					margin:0px auto; padding:0px;
+					background:#EFEFEF url(../images/bg.jpg) repeat-x;
+					font-family:Arial, Helvetica, sans-serif; font-size:12px; 
+					color:#666;
+				}
+
+div,table,tr,td,p,span	{ font-size:12px;}
+
+.table 		    { border-top:1px #ccc solid; border-left:1px #ccc solid; border-right:1px #ccc solid; }
+
+.table tr td	{ border-bottom:1px #ccc solid;}
+
+.table tr td  a { color:#000;}
+.table tr td  a:link {	color:#000;}
+.table tr td  a:hover { color:#FF6600;}
+
+.hello_admin	{
+					color:#7DD0FA;
+				}
+form {	margin: 0;	padding: 0; }
+
+
+
+img				{ margin:0px auto; padding:0px; border: none;}
+
+input 			{ padding-right:5px;}
+h1, h2, h3 		{ margin: 0; padding: 0; }
+/*all link css style*/
+a					{	font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#7DD0FA; text-decoration:none;}
+
+
+a:link ,a:visited 	{
+						font-size:12px; font-family:Arial, Helvetica, sans-serif; 
+						color:#7DD0FA; 
+						text-decoration:none;
+					}
+					
+a:hover				{	font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#f3b308; text-decoration:underline;}
+
+
+/*frame style*/
+
+
+
+#main_top		{	position:relative; margin:0px auto; padding:0px;
+					width:1003px; height:45px; background:#ccc url(../images/m_t_b.jpg);
+					
+				}
+				
+#main_menu		{	position:relative; margin:0px auto;  padding:0px;
+					width:1003px; height:40px; line-height:40px; 
+					background:#4c4c4c; color:#b2b2b2;
+				}
+
+				
+
+#main_contant	{	position:relative; margin:0px auto; padding-top:5px; overflow:hidden;
+					width:1003px; height:470px;
+					
+				}
+				
+#main_foot		{	position:relative; margin:0px auto; padding:0px;
+					width:1003px; height:40px; line-height:40px; 
+					background:#000;
+					color:#b2b2b2;/* bottom:0; z-index:2;*/
+				}
+				
+/*move panel menu title main_contant */
+
+.menu_title           { float:left;cursor:pointer; padding-left:5px;
+						width:80px; height:20px; 
+						
+					  }
+
+.menu_title_hover     {	
+						float:left;cursor:pointer; padding-left:5px;
+						color:#FFFFFF;
+						width:80px;  height:20px;   
+						
+					   }
+					   
+.refurs				  {  position: relative; margin:0px 0px 0px 110px; padding:0px;
+							
+					  		
+					  }
+					  
+
+#mask				  {	position: relative; left: 0px; overflow:hidden;
+						width: 9027px; height:500px; 
+						 	
+					  }
+
+.article-text		  {	float: left;overflow: hidden; 
+						width: 1003px;  height:500px;	
+					  }
